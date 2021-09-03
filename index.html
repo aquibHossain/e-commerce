@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classy House</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light  fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" >
@@ -23,10 +24,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Subscribe</a>
@@ -35,94 +36,205 @@
               </div>
             </div>
           </nav>
+          <section class="container margin-top margin-bottom">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel " >
+                <div class="carousel-inner mt-5"  style="border-radius: 10px ;">
+                  <div class="carousel-item active" data-bs-interval="7000" >
+                    <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
+                        <div class="row g-0 d-flex align-items-center">
+                         
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h1  class="card-title fs-1">Cool Dude Headphone</h1>
+                              <p class="fs-5 card-text">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                              <h2 class="fs-1" style="color:#FF136F ;">&dollar;600</h2>
+                              <a href="#" class="btn border-0 rounded-10 text-white btn-lg button-back" >Buy Now</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <img src="images/banner-images/headphone.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
+                        <div class="row g-0 d-flex align-items-center">
+                         
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h1  class="card-title fs-1">Mi LED TV 4A PRO 32</h1>
+                              <p class="fs-5 card-text">This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                              <h2 class="fs-1" style="color:#FF136F ;">&dollar;1300</h2>
+                              <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <img  src="images/banner-images/tv.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
+                        <div class="row g-0 d-flex align-items-center">
+                         
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h1  class="card-title fs-1">X-Box for your living room</h1>
+                              <p class="fs-5 card-text">This is the best x-box in the world for people who just want to waste time in front of fake sports..</p>
+                              <h2 class="fs-1" style="color:#FF136F ;">&dollar;499</h2>
+                              <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <img src="images/banner-images/xbox.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+           </section>
     </header>
-    <main class="container">
+    <main >  
        <section>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel " >
-            <div class="carousel-inner mt-5"  style="border-radius: 10px ;">
-              <div class="carousel-item active" data-bs-interval="7000" >
-                <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
-                    <div class="row g-0 d-flex align-items-center">
-                     
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h1  class="card-title fs-1">Cool Dude Headphone</h1>
-                          <p class="fs-5 card-text">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                          <h2 class="fs-1" style="color:#FF136F ;">&dollar;600</h2>
-                          <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="images/banner-images/headphone.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
-                    <div class="row g-0 d-flex align-items-center">
-                     
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h1  class="card-title fs-1">Mi LED TV 4A PRO 32</h1>
-                          <p class="fs-5 card-text">This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                          <h2 class="fs-1" style="color:#FF136F ;">&dollar;1300</h2>
-                          <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <img  src="images/banner-images/tv.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card mb-3 p-4" style="background-color:#FEEAE9;">
-                    <div class="row g-0 d-flex align-items-center">
-                     
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h1  class="card-title fs-1">X-Box for your living room</h1>
-                          <p class="fs-5 card-text">This is the best x-box in the world for people who just want to waste time in front of fake sports..</p>
-                          <h2 class="fs-1" style="color:#FF136F ;">&dollar;499</h2>
-                          <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="images/banner-images/xbox.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                    </div>
-                  </div>
-              </div>
+         <div class="container my-5">
+           <div class="row g-5">
+            <div class="col-lg-4 col-12 col-md-6">
+              <div class="d-flex align-items-center  justify-content-center bg-gradient " style="background-color:#FF9C35; border-radius: 20px;">
+             <h1 class="text-white me-5">Watch</h1>
+                <img src="images/categories/watch.png" alt="">
+               </div> 
+            </div> 
+            <div class="col-lg-4 col-12 col-md-6 ">
+              <div class="d-flex align-items-center  justify-content-center bg-gradient " style="background-color:#FF589B
+              ; border-radius: 20px;">
+             <h1 class="text-white me-5">Watch</h1>
+                <img src="images/categories/bag.png" alt="">
+               </div> 
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col-lg-4 col-12 col-md-6 ">
+              <div class="d-flex align-items-center  justify-content-center bg-gradient " style="background-color:#4289FF
+              ; border-radius: 20px;">
+             <h1 class="text-white me-5">Watch</h1>
+                <img src="images/categories/shoes.png" alt="">
+               </div> 
+            </div>    
+           </div>
           </div>
        </section>
-       <section>
-           <div class="row gy-3">
-               <div class="col-lg-4 d-flex align-items-center p-2 justify-content-center bg-gradient " style="background-color:#FF9C35; border-radius: 20px;">
-                   <h1 class="text-white me-5">Watch</h1>
-                   <img src="images/categories/watch.png" alt="">
-               </div>
-               <div class="d-flex col-lg-4 align-items-center p-2 justify-content-center " style="background-color:#FF9C35; border-radius: 20px;">
-                   <h1 class="text-white me-5">Watch</h1>
-                   <img src="images/categories/watch.png" alt="">
-               </div>
-               <div class="col-lg-4 d-flex align-items-center p-2 justify-content-center" style="background-color:#FF9C35; border-radius: 20px;">
-                   <h1 class="text-white me-5">Watch</h1>
-                   <img src="images/categories/watch.png" alt="">
-               </div>
-           </div>
+       <section class="container  margin-top" id="shoes">
+         <h1>Shoes</h1>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Supply 350</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NIKE 360</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Air Max</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <section class="container margin-top" id="backpack">
+         <h1>Backpack</h1>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Supply 350</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NIKE 360</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg border-0 rounded-3">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Air Max</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="m-3">
+                <h3>&dollar; 120</h3>
+                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <section class="container margin-top ">
+        <div class=" d-flex align-items-center  justify-content-center "  style="height: 400px;background-color:#FEEAE9;">
+        <form >
+            <h1>LET'S STAY IN TOUCH</h1>
+            <label for="exampleInputEmail1" class="form-label">Get updates on sales, specials and more</label><br>
+            <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+            <button type="submit" class="btn btn-primary button-back border-0">Submit</button> 
+        </form>
+      </div>
        </section>
     </main>
-    <footer>
+    <footer class="mt-5">
+         <p class="text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
         <script src="js/bootstrap.bundle.min.js"></script>
     </footer>
 </body>
