@@ -85,7 +85,7 @@
                               <h1  class="card-title fs-1">X-Box for your living room</h1>
                               <p class="fs-5 card-text">This is the best x-box in the world for people who just want to waste time in front of fake sports..</p>
                               <h2 class="fs-1" style="color:#FF136F ;">&dollar;499</h2>
-                              <a href="#" class="btn border-0 rounded-10 btn-primary btn-lg " style="background-color:#FF136F;">Buy Now</a>
+                              <a onclick="alert('Are you sure?');" href="#" class="btn border-0 rounded-10 btn-primary btn-lg" style="background-color:#FF136F;">Buy Now</a>
                             </div>
                           </div>
                           <div class="col-md-4">
@@ -133,11 +133,11 @@
            </div>
           </div>
        </section>
-       <section class="container  margin-top" id="shoes">
+       <section class="container  margin-top " id="shoes">
          <h1>Shoes</h1>
          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
+            <div class="card h-100 shadow-lg border-0 radius">
               <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h3 class="card-title">Supply 350</h3>
@@ -151,7 +151,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
+            <div class="card h-100 shadow-lg border-0 radius">
               <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">NIKE 360</h5>
@@ -164,7 +164,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
+            <div class="card h-100 shadow-lg border-0  radius">
               <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Air Max</h5>
@@ -179,11 +179,11 @@
         </div>
        </section>
        <section class="container margin-top" id="backpack">
-         <h1>Backpack</h1>
+         <h1 id="bag-head">Backpack</h1>
          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
-              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card h-100 shadow-lg border-0  radius">
+              <img id="image4" src="images/bags/bag-1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h3 class="card-title">Supply 350</h3>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -191,12 +191,12 @@
               </div>
               <div class="m-3">
                 <h3>&dollar; 120</h3>
-                <a href="#" class="btn btn-primary border-0 button-back">Buy Now >></a>
+                <button href="" id="card-button" class="btn btn-primary border-0 button-back ">Buy Now >></button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
+            <div class="card h-100 shadow-lg border-0  radius">
               <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">NIKE 360</h5>
@@ -209,7 +209,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 shadow-lg border-0 rounded-3">
+            <div class="card h-100 shadow-lg border-0 radius">
               <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Air Max</h5>
@@ -223,13 +223,13 @@
           </div>
         </div>
        </section>
-       <section class="container margin-top ">
-        <div class=" d-flex align-items-center  justify-content-center "  style="height: 400px;background-color:#FEEAE9;">
+       <section  class="container margin-top ">
+        <div id="email" class=" d-flex align-items-center  justify-content-center "  style="height: 400px;background-color:#FEEAE9;">
         <form >
             <h1>LET'S STAY IN TOUCH</h1>
             <label for="exampleInputEmail1" class="form-label">Get updates on sales, specials and more</label><br>
-            <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
-            <button type="submit" class="btn btn-primary button-back border-0">Submit</button> 
+            <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" ><br>
+            <button disabled type="submit" id="submit" class="btn btn-primary button-back border-0 mt-2 ">Submit</button> 
         </form>
       </div>
        </section>
@@ -238,5 +238,9 @@
          <p class="text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
         <script src="js/bootstrap.bundle.min.js"></script>
     </footer>
+    <script src="panda.js"></script>
+    <script>
+
+    </script>
 </body>
 </html>
